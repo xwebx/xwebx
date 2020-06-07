@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* teclado-auxiliar-integrado.css
+ * (c) 2013, Andrés de la Paz
+ * www.wextensible.com
+ */
+
+
+/* COMPLEMENTO INPUT TYPE NUMBER ------------------------------------------------------
+   En teclado-auxiliar-integrado.js se crea dinámicamente una especie de teclado para
+   incorporar los botones que suben y bajan el valor del número.
+*/
+
+div#keyboard-numeric {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgb(1,1,20);
+    color: white;
+    font-weight: bold;
+    z-index: 1000000;
+    font-size: 1.3em;
+    width: 3.05em;
+    max-height: auto;
+    }
+div#keyboard-numeric div {
+    height: 1.7em;
+    line-height: 1.7em;
+    max-height: auto;
+    margin: 0.2em;
+    text-align: center;
+    border: silver solid 1px;
+    background-color: gray;
+    border-radius: 0.3em;
+    cursor: pointer;
+    }
